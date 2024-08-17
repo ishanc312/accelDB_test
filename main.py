@@ -5,7 +5,8 @@ import serial
 
 # Some setup 
 url = "http://localhost:8086"
-token = "CLJ4WNMc9hVFFZOVOQw3bJgCjsqTVN9Ficald4dN9GMd7mWgUf5HoFCGZDm1aHI3AdE4T-Ld3zdCr6t_MNTQNQ=="
+token = ""
+# Replace with actual API Token
 org = "BFR DAQ"
 client = InfluxDBClient(url=url, token=token, org=org)
 bucket = "accelerometer"
